@@ -33,6 +33,12 @@ languages:
         - name: Tags
           url: tags/
           weight: 10
+        - name: RSS
+          url: /index.xml
+        - name: Twitter
+          url: https://twitter.com/pyrolistical
+        - name: Twitter
+          url: https://twitter.com/pyrolistical
 
 outputs:
   home:
@@ -56,16 +62,6 @@ params:
   ShowRssButtonInSectionTermList: true
   ShowToc: false
   comments: false
-
-  socialIcons:
-    - name: github
-      url: "https://github.com/pyrolistical"
-    - name: twitter
-      url: "https://twitter.com/pyrolistical"
-    - name: KoFi
-      url: "https://ko-fi.com/pyrolistical"
-    - name: Rss
-      url: "index.xml"
 
   assets:
     disableHLJS: true
